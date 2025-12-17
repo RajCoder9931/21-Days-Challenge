@@ -1,7 +1,8 @@
 // 4️⃣ Callbacks
 // 🔹 What is Callback?
 
-// Ek function jo doosre function me argument ke roop me pass hota hai aur baad me call hota hai.
+// Ek function jo doosre function me argument ke roop me pass hota
+//  hai aur baad me call hota hai.
 // Example: -
 
 function fetchData(Callback){
