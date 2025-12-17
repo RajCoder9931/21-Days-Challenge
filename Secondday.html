@@ -60,7 +60,25 @@ const obj ={
 obj.greetmessage();
 
 //Fourth Topic
+function fetchData(Callback){
+    setTimeout(()=>{
+        Callback("Data aa raha hai bhai ");
+    }, 2000);
+}
+fetchData((msg) =>{
+    console.log(msg);
+});
 
+//  problem : callback hell
+// login (user, ()=>{
+//     getprofile(()=>{
+//         getposts(()=>{
+//             getcomments(()=>{
+//                 //  4️⃣
+//         });
+//           });        // this is hole error of readability and dubugging in touch same time 
+//     });
+// });
 
     </script>
 </body>
