@@ -22,20 +22,45 @@ counter(); // 2 count
 counter(); // 3 count
 
 //Second topic 
-console.log(a);
-a = 10;
+// console.log(a); // undefined 
+// a = 10;
 
 aaygya();
 function aaygya (){
     console.log("I am Back ")
 }
 
-
-sayhello()
-const sayhello = () =>{
+// sayhello()
+// const sayhello = () =>{
+//     console.log("Hello Jaan I Am Back");  // have the error beacause its a arrow function using const.
+// }
+sayhello();
+function sayhello () {
     console.log("Hello Jaan I Am Back");
 }
 // Third Topic
+// Inside the Object Method 
+
+const user ={
+ name : "Ravi",
+ greet(){
+    console.log(this.name);
+ }
+};
+user.greet();
+
+
+// Arrow function method
+const obj ={
+    name:"Raj Bhai Kya haal Hai ",
+    greetmessage: () =>{
+        console.log(this.name);
+    }
+};
+obj.greetmessage();
+
+//Fourth Topic
+
 
     </script>
 </body>

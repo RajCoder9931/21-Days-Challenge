@@ -16,6 +16,10 @@ sayhello()
 const sayhello = () =>{
     console.log("Hello Jaan I Am Back");
 }
+sayhello();
+function sayhello () {
+    console.log("Hello Jaan I Am Back");
+}
 
 // Interview Line
 
